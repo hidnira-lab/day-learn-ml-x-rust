@@ -1,4 +1,4 @@
-# day-learn-ml-x-rust
+# Day Learn Machine Learning with Rust ⚙️
 
 Learning machine learning from its mathematical foundations, implemented in pure Rust. Documenting my full journey through exercises and projects.
 
