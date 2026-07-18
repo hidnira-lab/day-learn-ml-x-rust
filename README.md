@@ -18,6 +18,13 @@ Every topic follows the same loop: theory → manual calculation by hand → Rus
 - **Language:** Rust
 - **Math/ML crates:** none for now, introduced gradually once the fundamentals are implemented by hand
 
+## Progress
+
+- **1-rust-fundamentals** (in progress)
+  - Variables, mutability, shadowing, and data types (integers, floats, booleans, chars, `String` vs `&str`)
+  - Ownership and move semantics
+  - Borrowing (in progress)
+
 ## Status
 
-Early stage, just getting started. This repo will grow with exercises and small projects as I progress.
+Early stage, working through Rust fundamentals before moving into linear algebra. This repo will grow with exercises and small projects as I progress.
