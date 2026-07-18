@@ -97,4 +97,14 @@ fn variables() {
 fn ownership() {
     println!("===");
 
+    // -- OWNERSHIP
+    // Ownership is a unique feature of rust programming language that allows us to manage memory safely and efficiently without a garbage collector.
+
+    let i: String = String::from("hayyy"); // in rust, String is a heap allocated data structure, so it has ownership
+    // let k = i; // when we assign i to k, the ownership of the String is moved from i to k, and i is no longer valid
+    // println!("{}",i); // this will cause an error because i is no longer valid
+
+    let k = i.clone(); // we can use clone() method to create a deep copy of the String, so both i and k have their own ownership
+    println!("{}",i); // this will work because i is still valid
+    println!("{}",k); // this will also work because k is valid
 }
